@@ -15,17 +15,17 @@
 
 # Démarrage du projet
 ### Étape 1
-Créer une database, on peut choisir le nom LEICHTNAM, au format utf8mb4_general_ci avec PHPMYADMIN
+Créer une database, on peut choisir le nom BDD_WEB, au format utf8mb4_general_ci avec PHPMYADMIN
 
 ### Étape 2
-Décompresser l'archive (ne pas se préoccuper du dossier MACOS) et importer le fichier LEICHTNAM.sql 
+Décompresser l'archive (ne pas se préoccuper du dossier MACOS) et importer le fichier BDD.sql 
 - 3 tables sont créées : UTILISATEURS, PUBLICATIONS, LIKES
 - 3 utilisateurs sont également créés : Sweethoney, blue, nosforice et ils respectivement 1 à 2 publications
 - Certaines publications sont likées
 
 ### Étape 3
 
-Récupérer le dossier WEB_LEICHTNAM et l'insérer dans le localhost
+Récupérer le dossier WEB_PROJET et l'insérer dans le localhost
 
 ### Étape 4
 
