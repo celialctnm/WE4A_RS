@@ -20,7 +20,7 @@ Créer une database, on peut choisir le nom BDD_WEB, au format utf8mb4_general_c
 ### Étape 2
 Décompresser l'archive (ne pas se préoccuper du dossier MACOS) et importer le fichier BDD.sql 
 - 3 tables sont créées : UTILISATEURS, PUBLICATIONS, LIKES
-- 3 utilisateurs sont également créés : Sweethoney, blue, nosforice et ils respectivement 1 à 2 publications
+- 3 utilisateurs sont également créés : Sweethoney, blue, nosforice et ils ont respectivement 1 à 2 publications
 - Certaines publications sont likées
 
 ### Étape 3
