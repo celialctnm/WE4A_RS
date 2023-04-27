@@ -1,0 +1,176 @@
+.allPostPage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #eaeaea;
+
+}
+
+.allPostCard {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40em;
+    border-radius: 5px;
+
+}
+
+.allPostEntete {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    height: 3em;
+}
+
+.allPostEntete p {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.allPostEntete img {
+    height: 3em;
+}
+
+.allPostContenu {
+    height: 32em;
+    background-color: white;
+}
+
+.allPostContenu img{
+    width: 100%;
+    height: 28em;
+}
+
+.allPostContenu p{
+    margin-left: 10px;
+}
+/*
+.allPostModif {
+    text-align: right;
+    width: 100%;
+}
+
+.allPostModif button {
+    height: 3em;
+    margin-top: 5px;
+    background-color: #fff87c;
+    border-radius: 5px;
+    border: 1px solid #fff87c;
+}
+
+.allPostSuppr {
+    text-align: right;
+    width: 70%;
+}
+
+.allPostSuppr button {
+    height: 3em;
+    margin-top: 5px;
+    background-color: #ff4343;
+    border-radius: 5px;
+    border: 1px solid #ff4343;
+}
+
+ */
+
+.entete_user {
+    margin-top: 10px;
+    height: 15em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: #DEDEDE;
+    border: 1px solid #DEDEDE;
+
+}
+
+.entete_user img {
+    height: 100%;
+}
+
+.entete_user img {
+    border-radius: 80px;
+    width: 150px;
+    height: 145px;
+    border: 1px solid #DEDEDE;
+    margin-top: 5%;
+}
+
+.bio {
+    padding-left: 5px;
+    width: 50%;
+}
+
+.entete_img {
+    padding-right: 5px;
+    text-align: right;
+    width: 50%;
+}
+
+/*
+Bouton définir un voyage
+ */
+
+.voyage {
+    background-color: #0e2ab4;
+    border: 1px solid #0e2ab4;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*
+Icone modifier
+ */
+
+#iconmodifier {
+    margin-top: 5%;
+    background-color: transparent;
+    margin-right: 5px;
+}
+#iconmodifier img {
+    background-color: transparent;
+    height: 50px;
+}
+
+/*
+Icone supprimer
+ */
+
+#icondelete {
+    margin-top: 5%;
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+#icondelete img {
+    background-color: transparent;
+    height: 50px;
+}
+
+/*
+Date du post
+ */
+
+#datePost {
+    color: #888888;
+    font-family: 'Khand', sans-serif;
+}
+
+/*
+Catégorie du post
+ */
+
+#categorieDescription {
+    color: #0e2ab4;
+    font-family: 'Khand', sans-serif;
+}
+
+/*
+Pseudo dans entête post
+ */
+.p_pseudo {
+    font-family: 'Khand', sans-serif;
+}

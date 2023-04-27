@@ -1,0 +1,33 @@
+/*
+Mise en place du titre et du logo du site
+ */
+.title {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #DEDEDE;
+    height: 5em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.title_h1 {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 1.5em;
+}
+
+.logo {
+    width: 3em;
+    z-index: 3;
+    margin-left: 2.5%;
+}
+
+.logo img {
+    height: 5em;
+}

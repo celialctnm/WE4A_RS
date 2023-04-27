@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: 15em;
+    width: 100%;
+    margin: 0;
+}
+
+.connexion_inscription {
+    height: 5em;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.connexion_inscription form {
+    margin: 0;
+    display: flex;
+    height: 2.5em;
+}
+
+.barre_recherche {
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 50%;
+    height: 2.3em;
+    margin-left: 2.5%;
+
+}
+
+.buttons {
+    width: 50%;
+}
+
+.barre_recherche input {
+    width: 85%;
+    height: 100%;
+}
+
+#submit_r {
+    margin: 0;
+    border: none;
+    height: 100%;
+    width: 8%;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+#loupe {
+    height: 100%;
+}
+
+.connexion_inscription button{
+    border-radius: 5px;
+    height: 50%;
+    margin-top: 1em;
+    margin-right: 10px;
+    font-family: 'Khand', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.btn_inscription {
+    background-color: #0e2ab4;
+    border: 1px solid #0e2ab4;
+    color: white;
+    cursor: pointer;
+}
+
+
+.btn_connexion {
+    background-color: #ffffff;
+    border: 1px solid #0e2ab4;
+    color: #0e2ab4;
+    cursor: pointer;
+}
+
+
+.btn_deconnexion {
+    background-color: #ff1919;
+    border: 1px solid #ff1919;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_add {
+    background-color: #0e2ab4;
+    border: 1px solid #0e2ab4;
+    color: white;
+    cursor: pointer;
+}
+
+.box_amis {
+    text-align: center;
+    height: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    width: 8em;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.amis {
+    background-color: white;
+    border-radius: 80px;
+    width: 85px;
+    height: 80px;
+    border: 1px solid #DEDEDE;
+    margin-top: 15%;
+}
+
+.box_amis p {
+    color: black;
+    margin-top: 2.5%;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+

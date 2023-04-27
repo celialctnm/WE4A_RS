@@ -1,0 +1,206 @@
+/*
+CSS AJOUTER UN POST + LE MODIFIER
+ */
+
+/*
+Page créer un post
+ */
+
+/*
+Add post
+ */
+
+.addPost {
+    height: 30em;
+    padding: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.addPost input{
+    height: 40px;
+    margin-bottom: 50px;
+    width: 300px;
+    border-bottom: 2px solid darkblue;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+
+}
+
+.addPost input::placeholder{
+    color: rgba(0, 0, 139, 0.65);
+}
+
+.addPost input::file-selector-button {
+    background-color: #0e2ab4;
+    border-radius: 5px;
+    border: 1px solid #0e2ab4;
+    color: white;
+    height: 30px;
+    width: 112px;
+}
+
+.addPost button {
+    background-color: #0e2ab4;
+    border-radius: 5px;
+    border: 1px solid #0e2ab4;
+    padding: 5px;
+    color: white;
+    height: 40px;
+    width: 300px;
+}
+
+.addPost label {
+    color: #0e2ab4;
+}
+
+.addPost textarea {
+    color: rgba(0, 0, 139, 0.65);
+    height: 10em;
+    margin-bottom: 50px;
+    width: 300px;
+    border: 1px solid darkblue;
+}
+
+.addPost textarea::placeholder{
+    color: rgba(0, 0, 139, 0.65);
+}
+.creerPost {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-top: #DEDEDE 1px solid;
+}
+
+/*
+.creerPost select {
+    height: 5em;
+    background-color: white;
+    border: 1px solid #0e2ab4;
+}
+ */
+
+.creerPost #categorie {
+    height: 2em;
+    width: 25%;
+    color: #0e2ab4;
+    border-radius: 5px;
+    border: 1px solid #0e2ab4;
+}
+
+.creerPost h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+}
+
+
+.creerPost form {
+    width: 80%;
+    border-radius: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: url("../img/plane.png");
+    background-size: 100% 100%;
+}
+
+@media (max-width: 765px) {
+    .creerPost form {
+        width: 80%;
+        border-radius: 10px;
+        font-family: 'Bebas Neue', sans-serif;
+        background-image: url("../img/plane.png");
+        background-size: 50% 100%;
+    }
+}
+
+
+.creerPost label {
+    font-size: 20px;
+    color: white;
+}
+
+.creerPost textarea {
+    border-radius: 10px;
+    border: 1px solid #0e2ab4;
+}
+
+/*
+Page modifier un post
+ */
+.modifPost {
+    height: 100%;
+    margin-top: 50px;
+}
+
+.modifPost label {
+    font-size: 20px;
+    color: #0e2ab4;
+}
+
+.modifPost h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.modifPost form {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.gaucheModif {
+    width: 50%;
+    height: 100%;
+}
+
+#modifImg {
+    height: 90%;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+
+
+.gaucheModif img {
+    width: 100%;
+    height: 100%;
+}
+
+.droiteModif {
+    width: 50%;
+    height: 70%;
+}
+
+
+.droiteModif textarea {
+    border-radius: 10px;
+    border: 1px solid #0e2ab4;
+    margin-top: 5em;
+}
+
+.droiteModif select {
+    background-color: white;
+}
+
+.droiteModif #categorie {
+    height: 2em;
+    width: 50%;
+    color: #0e2ab4;
+    border-radius: 5px;
+    border: 1px solid #0e2ab4;
+}
+
+@media (max-width: 765px) {
+    .modifPost #modifImg {
+        height: 40%;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
