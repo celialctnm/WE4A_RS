@@ -33,4 +33,4 @@ Changer les identifiants de connexion pour la base de données dans le fichier b
 
 ### Étape 5
 
-Aller au lien https://localhost/WEB_LEICHTNAM
+Lancer le projet sur localhost
